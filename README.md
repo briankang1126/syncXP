@@ -7,7 +7,7 @@ Windows User:
 2) Flutter sdk (when extract the file do not extract to  C\Program Files)
 3) git
 4) Android studio (Emulator)
-5) Extension that need to install in Visual Studio Code
+5) Extension that need to install in Visual Studio Code: 
  - Dart
  - Flutter
  - Awesone flutter snippets
@@ -20,13 +20,13 @@ Mac User:
 3) Git
 4) Visual Studio Code
 5) Extension that need to be install in Visual Studio Code
+6) Xcode and simulator (Can be install at App Store) :
  - Dart
  - Flutter
  - Awesome Flutter Snippets
  - Bracket pair colorizer
  - Material Icon Theme (optional)
- - Xcode and simulator (Can be install at App Store)
-
+ - 
  How to install? What was the process?
 https://www.youtube.com/watch?v=CD1Y2DmL5JM&t=867s
 
@@ -93,7 +93,7 @@ All core logic and business rules live in the `lib/controller/` directory. This 
 This keeps the `features/` directory clean and focused purely on UI components like screens (`views/`) and UI parts (`widgets/`).
 
 ## Push Change
-Once you finis your changing run this lines:
+Once you finished your changing run this lines:
 1) git add .
 2) git -m "(Your Message)"
 3) git push origin {branch name}
