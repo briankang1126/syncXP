@@ -91,3 +91,9 @@ All core logic and business rules live in the `lib/controller/` directory. This 
 - **OnboardingController**: Handles onboarding form state and validation.
 
 This keeps the `features/` directory clean and focused purely on UI components like screens (`views/`) and UI parts (`widgets/`).
+
+## Push Change
+Once you finis your changing run this lines:
+1) git add .
+2) git -m "(Your Message)"
+3) git push origin {branch name}
