@@ -34,51 +34,50 @@ This link include the installation process for both Mac and Windows User, and al
 
 ## Getting Started
 
-Project Structure (Tree Diagram)
+## 📁 Project Structure
 
-
+```text
 lib/
-├── main.dart
-|
-├── app/
-│   ├── app.dart
-│   └── router.dart
-|   
-├── core/
-│   ├── constants/           # Colors, text, icons
-│   ├── utils/               # Reusable helpers
-│   └── services/            # General-purpose services (e.g., mock DB, location)
-|
-├── mock_data/               # Local mock data (users, events)
-|
-├── models/                  # UserModel, EventModel, MatchModel
-|
-├── controller/
+├── main.dart                     # App entry point
+│
+├── app/                          # App-level setup
+│   ├── app.dart                  # MaterialApp configuration
+│   └── router.dart               # Route definitions
+│
+├── core/                         # Shared tools and services
+│   ├── constants/                # Colors, text, icons
+│   ├── utils/                    # Reusable helpers (date formatter, validators, etc.)
+│   └── services/                 # General-purpose services (e.g., mock DB, location)
+│
+├── mock_data/                    # Local mock data (users, events)
+│
+├── models/                       # Data models (UserModel, EventModel, etc.)
+│
+├── controller/                   # Business logic controllers
 │   ├── matchmaking_controller.dart
 │   ├── event_controller.dart
 │   ├── onboarding_controller.dart
 │   └── profile_controller.dart
-|
-├── features/
-|   |
+│
+├── features/                     # UI grouped by feature
 │   ├── onboarding/
-│   │   ├── views/
-│   │   └── widgets/
-|   |
+│   │   ├── views/                # Screens for onboarding flow
+│   │   └── widgets/              # Onboarding-specific UI components
 │   ├── profile/
 │   │   ├── views/
 │   │   └── widgets/
-|   |
 │   ├── matchmaking/
 │   │   ├── views/
 │   │   └── widgets/
-|   |
 │   └── events/
 │       ├── views/
 │       └── widgets/
-|
-├── providers/               # Riverpod, Bloc, or other state logic
-└── widgets/                 # Reusable components (cards, chips, etc.)
+│
+├── providers/                    # State management using Riverpod
+│
+└── widgets/                      # Reusable UI components (cards, buttons, tags, etc.)
+
+```
 
 
 
