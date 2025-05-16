@@ -19,14 +19,14 @@ Mac User:
 2) Android Studiio
 3) Git
 4) Visual Studio Code
-5) Extension that need to be install in Visual Studio Code
-6) Xcode and simulator (Can be install at App Store) :
+5) Xcode and simulator (Can be install at App Store)
+6) Extension that need to be install in Visual Studio Code:
  - Dart
  - Flutter
  - Awesome Flutter Snippets
  - Bracket pair colorizer
  - Material Icon Theme (optional)
- - 
+
  How to install? What was the process?
 https://www.youtube.com/watch?v=CD1Y2DmL5JM&t=867s
 
